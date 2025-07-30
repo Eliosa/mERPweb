@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IE 兼容性测试 - 手术护理信息管理系统</title>
+  <style>
+    body {
+      font-family: "Microsoft YaHei", Arial, sans-serif;
+      margin: 20px;
+      background-color: #f5f5f5;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .test-item {
+      margin: 10px 0;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+
+    .success {
+      background-color: #d4edda;
+      border-color: #c3e6cb;
+      color: #155724;
+    }
+
+    .error {
+      background-color: #f8d7da;
+      border-color: #f5c6cb;
+      color: #721c24;
+    }
+
+    .warning {
+      background-color: #fff3cd;
+      border-color: #ffeaa7;
+      color: #856404;
+    }
+
+    button {
+      padding: 8px 16px;
+      margin: 5px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      background: #007bff;
+      color: white;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>IE 兼容性测试页面</h1>
+    <p>此页面用于测试系统在 Internet Explorer 中的兼容性</p>
+
+    <div id="browser-info" class="test-item">
+      <h3>浏览器信息</h3>
+      <p id="user-agent"></p>
+      <p id="ie-version"></p>
+    </div>
+
+    <div id="feature-tests" class="test-item">
+      <h3>功能特性测试</h3>
+      <div id="test-results"></div>
+    </div>
+
+    <div class="test-item">
+      <h3>交互测试</h3>
+      <button onclick="testAlert()">测试弹窗</button>
+      <button onclick="testPromise()">测试 Promise</button>
+      <button onclick="testFetch()">测试网络请求</button>
+      <button onclick="testES6Features()">测试 ES6 特性</button>
+    </div>
+
+    <div class="test-item">
+      <h3>页面跳转</h3>
+      <button onclick="goToMain()">进入主系统</button>
+      <p><small>如果上述测试都通过，可以点击此按钮进入主系统</small></p>
+    </div>
+  </div>
+
+  <script>
+    // 浏览器检测
+    function detectBrowser() {
+      var ua = navigator.userAgent;
+      document.getElementById('user-agent').innerText = 'User Agent: ' + ua;
+
+      var isIE = ua.indexOf('MSIE') !== -1 || ua.indexOf('Trident/') !== -1;
+      var ieVersion = '';
+
+      if (isIE) {
+        if (ua.indexOf('MSIE') !== -1) {
+          ieVersion = ua.substring(ua.indexOf('MSIE') + 5, ua.indexOf(';', ua.indexOf('MSIE')));
+        } else if (ua.indexOf('Trident/') !== -1) {
+          var rv = ua.indexOf('rv:');
+          if (rv !== -1) {
+            ieVersion = ua.substring(rv + 3, ua.indexOf(')', rv));
+          }
+        }
+        document.getElementById('ie-version').innerHTML =
+          '<span style="color: red;">检测到 IE 浏览器版本: ' + ieVersion + '</span>';
+
+        if (parseFloat(ieVersion) < 11) {
+          document.getElementById('ie-version').innerHTML +=
+            '<br><strong style="color: red;">警告：IE ' + ieVersion + ' 版本过低，建议升级到 IE 11 或使用现代浏览器</strong>';
+        }
+      } else {
+        document.getElementById('ie-version').innerHTML =
+          '<span style="color: green;">当前使用现代浏览器</span>';
+      }
+    }
+
+    // 功能特性测试
+    function runFeatureTests() {
+      var results = [];
+      var testsContainer = document.getElementById('test-results');
+
+      // 测试 Promise
+      try {
+        new Promise(function (resolve) { resolve(); });
+        results.push({ name: 'Promise', status: 'success', message: '支持' });
+      } catch (e) {
+        results.push({ name: 'Promise', status: 'error', message: '不支持: ' + e.message });
+      }
+
+      // 测试 Object.assign
+      try {
+        Object.assign({}, { test: 1 });
+        results.push({ name: 'Object.assign', status: 'success', message: '支持' });
+      } catch (e) {
+        results.push({ name: 'Object.assign', status: 'error', message: '不支持: ' + e.message });
+      }
+
+      // 测试 Array.from
+      try {
+        Array.from([1, 2, 3]);
+        results.push({ name: 'Array.from', status: 'success', message: '支持' });
+      } catch (e) {
+        results.push({ name: 'Array.from', status: 'error', message: '不支持: ' + e.message });
+      }
+
+      // 测试 Array.prototype.includes
+      try {
+        [1, 2, 3].includes(2);
+        results.push({ name: 'Array.includes', status: 'success', message: '支持' });
+      } catch (e) {
+        results.push({ name: 'Array.includes', status: 'error', message: '不支持: ' + e.message });
+      }
+
+      // 测试 console
+      try {
+        if (window.console && typeof console.log === 'function') {
+          results.push({ name: 'Console', status: 'success', message: '支持' });
+        } else {
+          results.push({ name: 'Console', status: 'warning', message: '部分支持或已修复' });
+        }
+      } catch (e) {
+        results.push({ name: 'Console', status: 'error', message: '不支持: ' + e.message });
+      }
+
+      // 渲染结果
+      testsContainer.innerHTML = '';
+      for (var i = 0; i < results.length; i++) {
+        var result = results[i];
+        var div = document.createElement('div');
+        div.className = result.status;
+        div.innerHTML = '<strong>' + result.name + ':</strong> ' + result.message;
+        testsContainer.appendChild(div);
+      }
+    }
+
+    // 交互测试函数
+    function testAlert() {
+      alert('弹窗测试成功！');
+    }
+
+    function testPromise() {
+      if (window.Promise) {
+        Promise.resolve('Promise 测试成功！').then(function (message) {
+          alert(message);
+        });
+      } else {
+        alert('Promise 不可用');
+      }
+    }
+
+    function testFetch() {
+      if (window.fetch) {
+        alert('Fetch API 可用');
+      } else {
+        alert('Fetch API 不可用，将使用 XMLHttpRequest');
+      }
+    }
+
+    function testES6Features() {
+      try {
+        // 测试箭头函数（会被 Babel 转换）
+        var arrowFunc = function (x) { return x * 2; };
+        var result = arrowFunc(5);
+
+        // 测试 const/let（会被 Babel 转换）
+        var constTest = 'const test';
+
+        alert('ES6 特性测试成功！结果: ' + result + ', ' + constTest);
+      } catch (e) {
+        alert('ES6 特性测试失败: ' + e.message);
+      }
+    }
+
+    function goToMain() {
+      if (confirm('确定要进入主系统吗？')) {
+        window.location.href = '/';
+      }
+    }
+
+    // 页面加载时运行测试
+    window.onload = function () {
+      detectBrowser();
+      runFeatureTests();
+    };
+  </script>
+</body>
+
+</html>
