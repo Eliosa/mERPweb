@@ -1,2 +1,0 @@
-import{P as s}from"./PageContainer.55034dd6.js";import{x as e,y as a,H as r,I as t,A as m}from"./vendor.3cd7cc43.js";import"./index.8b7de0e4.js";import"./elementPlus.e1a77197.js";import"./mock.cbbac905.js";const o=e({name:"SystemUsers",setup:e=>(e,o)=>(a(),r(s,{"show-breadcrumb":""},{default:t(()=>o[0]||(o[0]=[m("span",{class:"system-users"},"用户管理",-1)])),_:1,__:[0]}))});export{o as default};
-//# sourceMappingURL=SystemUsers.8dc07ece.js.map
