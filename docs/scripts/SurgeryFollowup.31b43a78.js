@@ -1,2 +1,0 @@
-import{P as s}from"./PageContainer.9613e3e2.js";import{x as a,y as e,H as o,I as r,A as t}from"./vendor.13d1bfc8.js";import"./index.77aa1fc3.js";import"./elementPlus.573aaf29.js";const m=a({name:"SurgeryFollowup",setup:a=>(a,m)=>(e(),o(s,{"show-breadcrumb":""},{default:r(()=>m[0]||(m[0]=[t("span",null,"术后跟踪",-1)])),_:1,__:[0]}))});export{m as default};
-//# sourceMappingURL=SurgeryFollowup.31b43a78.js.map

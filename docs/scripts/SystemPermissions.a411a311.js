@@ -1,2 +1,0 @@
-import{P as s}from"./PageContainer.9613e3e2.js";import{x as e,y as a,H as o,I as r,A as t}from"./vendor.13d1bfc8.js";import"./index.77aa1fc3.js";import"./elementPlus.573aaf29.js";const m=e({name:"SystemPermissions",setup:e=>(e,m)=>(a(),o(s,{"show-breadcrumb":""},{default:r(()=>m[0]||(m[0]=[t("span",null,"权限管理",-1)])),_:1,__:[0]}))});export{m as default};
-//# sourceMappingURL=SystemPermissions.a411a311.js.map

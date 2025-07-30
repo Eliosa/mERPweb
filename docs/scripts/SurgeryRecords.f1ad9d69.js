@@ -1,2 +1,0 @@
-import{P as s}from"./PageContainer.9613e3e2.js";import{x as e,y as a,H as r,I as o,A as t}from"./vendor.13d1bfc8.js";import"./index.77aa1fc3.js";import"./elementPlus.573aaf29.js";const m=e({name:"SurgeryRecords",setup:e=>(e,m)=>(a(),r(s,{"show-breadcrumb":""},{default:o(()=>m[0]||(m[0]=[t("span",null,"手术记录",-1)])),_:1,__:[0]}))});export{m as default};
-//# sourceMappingURL=SurgeryRecords.f1ad9d69.js.map
