@@ -1,0 +1,2 @@
+import{_ as s}from"./PageContainer.0c925357.js";import{v as a,x as e,J as o,K as t,B as m}from"./vendor.3e9dbc58.js";import"./index.613cc80b.js";import"./elementPlus.90d17a33.js";import"./mock.c2f55d05.js";const r=a({name:"SystemBackup",setup:a=>(a,r)=>(e(),o(s,{"show-breadcrumb":""},{default:t(()=>r[0]||(r[0]=[m("span",null,"数据备份",-1)])),_:1,__:[0]}))});export{r as default};
+//# sourceMappingURL=SystemBackup.c2107141.js.map
