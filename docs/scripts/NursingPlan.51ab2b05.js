@@ -1,0 +1,2 @@
+import{P as s}from"./PageContainer.43a64dc9.js";import{v as a,x as r,J as e,K as n,B as o}from"./vendor.3e9dbc58.js";import"./index.b4853d5f.js";import"./elementPlus.5bedd14e.js";import"./mock.875e3994.js";const t=a({name:"NursingPlan",setup:a=>(a,t)=>{const m=s;return r(),e(m,{"show-breadcrumb":""},{default:n(()=>t[0]||(t[0]=[o("span",null,"护理计划",-1)])),_:1,__:[0]})}});export{t as default};
+//# sourceMappingURL=NursingPlan.51ab2b05.js.map
