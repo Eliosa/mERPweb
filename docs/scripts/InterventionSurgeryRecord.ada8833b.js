@@ -1,0 +1,2 @@
+import{P as e}from"./PageContainer.d2da7619.js";import{v as r,x as s,J as t,K as a,B as o}from"./vendor.3e9dbc58.js";import{_ as n}from"./index.1f46b1f0.js";import"./elementPlus.022fa967.js";import"./mock.93cde47e.js";const p=n(r({__name:"InterventionSurgeryRecord",props:{patientId:{},tabType:{}},setup:r=>(r,n)=>(s(),t(e,{class:"LIntervention-LSurgery-LRecord"},{default:a(()=>n[0]||(n[0]=[o("h2",null,"介入手术护理记录单",-1)])),_:1,__:[0]}))}),[["__scopeId","data-v-5306456a"]]);export{p as default};
+//# sourceMappingURL=InterventionSurgeryRecord.ada8833b.js.map

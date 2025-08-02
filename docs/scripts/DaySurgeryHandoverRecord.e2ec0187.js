@@ -1,0 +1,2 @@
+import{P as e}from"./PageContainer.d2da7619.js";import{v as a,x as r,J as s,K as o,B as t}from"./vendor.3e9dbc58.js";import{_ as p}from"./index.1f46b1f0.js";import"./elementPlus.022fa967.js";import"./mock.93cde47e.js";const d=p(a({__name:"DaySurgeryHandoverRecord",props:{patientId:{},tabType:{}},setup:a=>(a,p)=>(r(),s(e,{class:"LDay-LSurgery-LHandover-LRecord"},{default:o(()=>p[0]||(p[0]=[t("h2",null,"日间手术患者交接记录单",-1)])),_:1,__:[0]}))}),[["__scopeId","data-v-17e483e3"]]);export{d as default};
+//# sourceMappingURL=DaySurgeryHandoverRecord.e2ec0187.js.map

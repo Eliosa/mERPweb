@@ -1,0 +1,2 @@
+import{P as s}from"./PageContainer.d2da7619.js";import{v as e,x as t,J as a,K as o,B as r}from"./vendor.3e9dbc58.js";import{_ as n}from"./index.1f46b1f0.js";import"./elementPlus.022fa967.js";import"./mock.93cde47e.js";const i=n(e({__name:"InterventionNursingRecord",props:{patientId:{},tabType:{}},setup:e=>(e,n)=>(t(),a(s,{class:"LIntervention-LNursing-LRecord"},{default:o(()=>n[0]||(n[0]=[r("h2",null,"介入护理记录单",-1)])),_:1,__:[0]}))}),[["__scopeId","data-v-bf30d30a"]]);export{i as default};
+//# sourceMappingURL=InterventionNursingRecord.81927258.js.map

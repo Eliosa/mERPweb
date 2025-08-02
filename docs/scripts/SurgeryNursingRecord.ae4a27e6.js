@@ -1,0 +1,2 @@
+import{P as s}from"./PageContainer.d2da7619.js";import{v as r,x as e,J as a,K as o,B as t}from"./vendor.3e9dbc58.js";import{_ as p}from"./index.1f46b1f0.js";import"./elementPlus.022fa967.js";import"./mock.93cde47e.js";const i=p(r({__name:"SurgeryNursingRecord",props:{patientId:{},tabType:{}},setup:r=>(r,p)=>(e(),a(s,{class:"LSurgery-LNursing-LRecord"},{default:o(()=>p[0]||(p[0]=[t("h2",null,"手术护理记录单",-1)])),_:1,__:[0]}))}),[["__scopeId","data-v-df5990f7"]]);export{i as default};
+//# sourceMappingURL=SurgeryNursingRecord.ae4a27e6.js.map

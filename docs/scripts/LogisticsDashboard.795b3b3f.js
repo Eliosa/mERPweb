@@ -1,0 +1,2 @@
+import{P as s}from"./PageContainer.d2da7619.js";import{v as a,x as o,J as t,K as e,B as i}from"./vendor.3e9dbc58.js";import{_ as r}from"./index.1f46b1f0.js";import"./elementPlus.022fa967.js";import"./mock.93cde47e.js";const m=r(a({__name:"LogisticsDashboard",setup:a=>(a,r)=>(o(),t(s,null,{default:e(()=>r[0]||(r[0]=[i("div",{class:"logistics-dashboard"},[i("h2",null,"工勤管理总览")],-1)])),_:1,__:[0]}))}),[["__scopeId","data-v-754ec551"]]);export{m as default};
+//# sourceMappingURL=LogisticsDashboard.795b3b3f.js.map

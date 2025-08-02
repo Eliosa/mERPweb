@@ -1,0 +1,2 @@
+import{P as s}from"./PageContainer.d2da7619.js";import{v as o,x as a,J as t,K as e,B as r}from"./vendor.3e9dbc58.js";import{_ as m}from"./index.1f46b1f0.js";import"./elementPlus.022fa967.js";import"./mock.93cde47e.js";const n=m(o({__name:"ConsultationForm",props:{patientId:{},tabType:{}},setup:o=>(o,m)=>(a(),t(s,{class:"LConsultation-LForm"},{default:e(()=>m[0]||(m[0]=[r("h2",null,"会诊单",-1)])),_:1,__:[0]}))}),[["__scopeId","data-v-18273e49"]]);export{n as default};
+//# sourceMappingURL=ConsultationForm.c2d21971.js.map

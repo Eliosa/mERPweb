@@ -1,0 +1,2 @@
+import{P as e}from"./PageContainer.d2da7619.js";import{v as s,x as a,J as t,K as o,B as p}from"./vendor.3e9dbc58.js";import{_ as r}from"./index.1f46b1f0.js";import"./elementPlus.022fa967.js";import"./mock.93cde47e.js";const i=r(s({__name:"ImplantDeviceRegister",props:{patientId:{},tabType:{}},setup:s=>(s,r)=>(a(),t(e,{class:"LImplant-LDevice-LRegister"},{default:o(()=>r[0]||(r[0]=[p("h2",null,"植入医疗器械使用登记表",-1)])),_:1,__:[0]}))}),[["__scopeId","data-v-860af758"]]);export{i as default};
+//# sourceMappingURL=ImplantDeviceRegister.dbc19e64.js.map

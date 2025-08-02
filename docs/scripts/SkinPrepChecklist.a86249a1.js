@@ -1,0 +1,2 @@
+import{P as s}from"./PageContainer.d2da7619.js";import{v as a,x as e,J as t,K as o,B as p}from"./vendor.3e9dbc58.js";import{_ as r}from"./index.1f46b1f0.js";import"./elementPlus.022fa967.js";import"./mock.93cde47e.js";const i=r(a({__name:"SkinPrepChecklist",props:{patientId:{},tabType:{}},setup:a=>(a,r)=>(e(),t(s,{class:"LSkin-LPrep-LChecklist"},{default:o(()=>r[0]||(r[0]=[p("h2",null,"皮肤准备核查表",-1)])),_:1,__:[0]}))}),[["__scopeId","data-v-9ca30f7b"]]);export{i as default};
+//# sourceMappingURL=SkinPrepChecklist.a86249a1.js.map

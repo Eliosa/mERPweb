@@ -1,0 +1,2 @@
+import{v as a,x as s,y as e,B as o,z as t,I as r}from"./vendor.3e9dbc58.js";import{_ as c}from"./index.1f46b1f0.js";const d={class:"page-content"},n=c(a({name:"PageContainer",props:{showBreadcrumb:{type:Boolean,default:!0},className:{},breadcrumbPath:{}},setup:a=>(a,c)=>(s(),e("div",{class:r(["page-container",a.className])},[o("div",d,[t(a.$slots,"default",{},void 0,!0)])],2))}),[["__scopeId","data-v-867809ec"]]);export{n as P};
+//# sourceMappingURL=PageContainer.d2da7619.js.map

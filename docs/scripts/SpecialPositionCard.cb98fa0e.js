@@ -1,0 +1,2 @@
+import{P as a}from"./PageContainer.d2da7619.js";import{v as s,x as o,J as t,K as e,B as i}from"./vendor.3e9dbc58.js";import{_ as p}from"./index.1f46b1f0.js";import"./elementPlus.022fa967.js";import"./mock.93cde47e.js";const r=p(s({__name:"SpecialPositionCard",props:{patientId:{},tabType:{}},setup:s=>(s,p)=>(o(),t(a,{class:"LSpecial-LPosition-LCard"},{default:e(()=>p[0]||(p[0]=[i("h2",null,"特殊体位术中手术关注卡",-1)])),_:1,__:[0]}))}),[["__scopeId","data-v-c0602f49"]]);export{r as default};
+//# sourceMappingURL=SpecialPositionCard.cb98fa0e.js.map

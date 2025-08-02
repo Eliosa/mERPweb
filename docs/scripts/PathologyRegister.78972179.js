@@ -1,0 +1,2 @@
+import{P as s}from"./PageContainer.d2da7619.js";import{v as a,x as e,J as t,K as o,B as r}from"./vendor.3e9dbc58.js";import{_ as p}from"./index.1f46b1f0.js";import"./elementPlus.022fa967.js";import"./mock.93cde47e.js";const i=p(a({__name:"PathologyRegister",props:{patientId:{},tabType:{}},setup:a=>(a,p)=>(e(),t(s,{class:"LPathology-LRegister"},{default:o(()=>p[0]||(p[0]=[r("h2",null,"病理标本登记记录",-1)])),_:1,__:[0]}))}),[["__scopeId","data-v-e0f50a05"]]);export{i as default};
+//# sourceMappingURL=PathologyRegister.78972179.js.map

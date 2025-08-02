@@ -1,0 +1,2 @@
+import{P as a}from"./PageContainer.d2da7619.js";import{v as e,x as s,J as t,K as i,B as o}from"./vendor.3e9dbc58.js";import"./index.1f46b1f0.js";import"./elementPlus.022fa967.js";import"./mock.93cde47e.js";const m=e({__name:"MedicalAdvice",props:{patientId:{},tabType:{}},setup:e=>(e,m)=>(s(),t(a,{class:"medical-advice"},{default:i(()=>m[0]||(m[0]=[o("h2",null,"医嘱信息",-1)])),_:1,__:[0]}))});export{m as default};
+//# sourceMappingURL=MedicalAdvice.e33b9f32.js.map

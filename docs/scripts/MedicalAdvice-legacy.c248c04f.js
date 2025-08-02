@@ -1,0 +1,2 @@
+System.register(["./PageContainer-legacy.bb435c02.js","./vendor-legacy.bfadd163.js","./index-legacy.cc37e666.js","./elementPlus-legacy.e44545db.js","./mock-legacy.3d4478db.js"],function(e,l){"use strict";var t,a,n,s,c,u;return{setters:[e=>{t=e.P},e=>{a=e.v,n=e.x,s=e.J,c=e.K,u=e.B},null,null,null],execute:function(){e("default",a({__name:"MedicalAdvice",props:{patientId:{},tabType:{}},setup:e=>(e,l)=>(n(),s(t,{class:"medical-advice"},{default:c(()=>l[0]||(l[0]=[u("h2",null,"医嘱信息",-1)])),_:1,__:[0]}))}))}}});
+//# sourceMappingURL=MedicalAdvice-legacy.c248c04f.js.map

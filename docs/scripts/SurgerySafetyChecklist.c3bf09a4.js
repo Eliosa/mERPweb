@@ -1,0 +1,2 @@
+import{P as e}from"./PageContainer.d2da7619.js";import{v as s,x as a,J as t,K as r,B as o}from"./vendor.3e9dbc58.js";import{_ as p}from"./index.1f46b1f0.js";import"./elementPlus.022fa967.js";import"./mock.93cde47e.js";const i=p(s({__name:"SurgerySafetyChecklist",props:{patientId:{},tabType:{}},setup:s=>(s,p)=>(a(),t(e,{class:"LSurgery-LSafety-LChecklist"},{default:r(()=>p[0]||(p[0]=[o("h2",null,"手术安全核查表",-1)])),_:1,__:[0]}))}),[["__scopeId","data-v-b43b0eef"]]);export{i as default};
+//# sourceMappingURL=SurgerySafetyChecklist.c3bf09a4.js.map

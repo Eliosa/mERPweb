@@ -1,0 +1,2 @@
+import{P as s}from"./PageContainer.d2da7619.js";import{v as a,x as e,J as o,K as t,B as m}from"./vendor.3e9dbc58.js";import"./index.1f46b1f0.js";import"./elementPlus.022fa967.js";import"./mock.93cde47e.js";const r=a({name:"SystemConfig",setup:a=>(a,r)=>(e(),o(s,{"show-breadcrumb":""},{default:t(()=>r[0]||(r[0]=[m("span",{class:"system-config"},"系统配置",-1)])),_:1,__:[0]}))});export{r as default};
+//# sourceMappingURL=SystemConfig.69290ba1.js.map

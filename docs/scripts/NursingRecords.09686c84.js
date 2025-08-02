@@ -1,2 +1,0 @@
-import{_ as s}from"./PageContainer.0c925357.js";import{v as r,x as e,J as o,K as a,B as t}from"./vendor.3e9dbc58.js";import"./index.613cc80b.js";import"./elementPlus.90d17a33.js";import"./mock.c2f55d05.js";const n=r({name:"NursingRecords",setup:r=>(r,n)=>{const m=s;return e(),o(m,{"show-breadcrumb":""},{default:a(()=>n[0]||(n[0]=[t("span",null,"护理记录",-1)])),_:1,__:[0]})}});export{n as default};
-//# sourceMappingURL=NursingRecords.09686c84.js.map

@@ -1,0 +1,2 @@
+import{P as a}from"./PageContainer.d2da7619.js";import{v as s,x as t,J as o,K as e,B as r}from"./vendor.3e9dbc58.js";import{_ as p}from"./index.1f46b1f0.js";import"./elementPlus.022fa967.js";import"./mock.93cde47e.js";const i=p(s({__name:"PathologyPrint",props:{patientId:{},tabType:{}},setup:s=>(s,p)=>(t(),o(a,{class:"LPathology-LPrint"},{default:e(()=>p[0]||(p[0]=[r("h2",null,"病理标本打印",-1)])),_:1,__:[0]}))}),[["__scopeId","data-v-60959c84"]]);export{i as default};
+//# sourceMappingURL=PathologyPrint.afc86ed9.js.map

@@ -1,0 +1,2 @@
+import{P as a}from"./PageContainer.d2da7619.js";import{v as e,x as s,J as t,K as o,B as r}from"./vendor.3e9dbc58.js";import{_ as n}from"./index.1f46b1f0.js";import"./elementPlus.022fa967.js";import"./mock.93cde47e.js";const i=n(e({__name:"InterventionMaterialsRecord",props:{patientId:{},tabType:{}},setup:e=>(e,n)=>(s(),t(a,{class:"LIntervention-LMaterials-LRecord"},{default:o(()=>n[0]||(n[0]=[r("h2",null,"介入耗材使用记录表",-1)])),_:1,__:[0]}))}),[["__scopeId","data-v-02c0a420"]]);export{i as default};
+//# sourceMappingURL=InterventionMaterialsRecord.921fbeed.js.map

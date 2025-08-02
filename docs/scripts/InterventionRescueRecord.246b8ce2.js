@@ -1,0 +1,2 @@
+import{P as e}from"./PageContainer.d2da7619.js";import{v as s,x as t,J as a,K as o,B as r}from"./vendor.3e9dbc58.js";import{_ as n}from"./index.1f46b1f0.js";import"./elementPlus.022fa967.js";import"./mock.93cde47e.js";const p=n(s({__name:"InterventionRescueRecord",props:{patientId:{},tabType:{}},setup:s=>(s,n)=>(t(),a(e,{class:"LIntervention-LRescue-LRecord"},{default:o(()=>n[0]||(n[0]=[r("h2",null,"介入护理抢救记录单",-1)])),_:1,__:[0]}))}),[["__scopeId","data-v-df720ffa"]]);export{p as default};
+//# sourceMappingURL=InterventionRescueRecord.246b8ce2.js.map

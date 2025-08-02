@@ -1,0 +1,2 @@
+import{P as a}from"./PageContainer.d2da7619.js";import{v as e,x as s,J as t,K as p,B as o}from"./vendor.3e9dbc58.js";import{_ as c}from"./index.1f46b1f0.js";import"./elementPlus.022fa967.js";import"./mock.93cde47e.js";const m=c(e({__name:"ImplantDeviceAcceptance",props:{patientId:{},tabType:{}},setup:e=>(e,c)=>(s(),t(a,{class:"LImplant-LDevice-LAcceptance"},{default:p(()=>c[0]||(c[0]=[o("h2",null,"植入医疗器械使用验收登记表",-1)])),_:1,__:[0]}))}),[["__scopeId","data-v-a3a63c40"]]);export{m as default};
+//# sourceMappingURL=ImplantDeviceAcceptance.aa129b7a.js.map

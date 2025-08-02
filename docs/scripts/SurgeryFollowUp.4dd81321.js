@@ -1,0 +1,2 @@
+import{P as s}from"./PageContainer.d2da7619.js";import{v as o,x as a,J as e,K as r,B as t}from"./vendor.3e9dbc58.js";import{_ as p}from"./index.1f46b1f0.js";import"./elementPlus.022fa967.js";import"./mock.93cde47e.js";const l=p(o({__name:"SurgeryFollowUp",props:{patientId:{},tabType:{}},setup:o=>(o,p)=>(a(),e(s,{class:"LSurgery-LFollow-LUp"},{default:r(()=>p[0]||(p[0]=[t("h2",null,"手术室随访记录单",-1)])),_:1,__:[0]}))}),[["__scopeId","data-v-9ed4110b"]]);export{l as default};
+//# sourceMappingURL=SurgeryFollowUp.4dd81321.js.map

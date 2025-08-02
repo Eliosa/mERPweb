@@ -1,0 +1,2 @@
+import{P as s}from"./PageContainer.d2da7619.js";import{v as a,x as t,J as o,K as e,B as i}from"./vendor.3e9dbc58.js";import{_ as r}from"./index.1f46b1f0.js";import"./elementPlus.022fa967.js";import"./mock.93cde47e.js";const m=r(a({__name:"StatisticsDashboard",setup:a=>(a,r)=>(t(),o(s,null,{default:e(()=>r[0]||(r[0]=[i("div",{class:"statistics-dashboard"},[i("h2",null,"统计分析总览")],-1)])),_:1,__:[0]}))}),[["__scopeId","data-v-42808825"]]);export{m as default};
+//# sourceMappingURL=StatisticsDashboard.ca57c93e.js.map

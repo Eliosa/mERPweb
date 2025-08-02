@@ -1,0 +1,2 @@
+import{P as s}from"./PageContainer.d2da7619.js";import{v as a,x as o,J as r,K as t,B as e}from"./vendor.3e9dbc58.js";import{_ as d}from"./index.1f46b1f0.js";import"./elementPlus.022fa967.js";import"./mock.93cde47e.js";const i=d(a({__name:"IndicatorsDashboard",setup:a=>(a,d)=>(o(),r(s,null,{default:t(()=>d[0]||(d[0]=[e("div",{class:"indicators-dashboard"},[e("h2",null,"敏感指标总览")],-1)])),_:1,__:[0]}))}),[["__scopeId","data-v-373c51c5"]]);export{i as default};
+//# sourceMappingURL=IndicatorsDashboard.160c6c35.js.map

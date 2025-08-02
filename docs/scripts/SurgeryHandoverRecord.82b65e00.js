@@ -1,0 +1,2 @@
+import{P as a}from"./PageContainer.d2da7619.js";import{v as e,x as r,J as s,K as o,B as t}from"./vendor.3e9dbc58.js";import{_ as p}from"./index.1f46b1f0.js";import"./elementPlus.022fa967.js";import"./mock.93cde47e.js";const d=p(e({__name:"SurgeryHandoverRecord",props:{patientId:{},tabType:{}},setup:e=>(e,p)=>(r(),s(a,{class:"LSurgery-LHandover-LRecord"},{default:o(()=>p[0]||(p[0]=[t("h2",null,"手术患者交接记录单",-1)])),_:1,__:[0]}))}),[["__scopeId","data-v-98b0a206"]]);export{d as default};
+//# sourceMappingURL=SurgeryHandoverRecord.82b65e00.js.map

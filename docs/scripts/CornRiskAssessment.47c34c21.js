@@ -1,0 +1,2 @@
+import{P as s}from"./PageContainer.d2da7619.js";import{v as a,x as e,J as t,K as o,B as r}from"./vendor.3e9dbc58.js";import{_ as m}from"./index.1f46b1f0.js";import"./elementPlus.022fa967.js";import"./mock.93cde47e.js";const n=m(a({__name:"CornRiskAssessment",props:{patientId:{},tabType:{}},setup:a=>(a,m)=>(e(),t(s,{class:"LCorn-LRisk-LAssessment"},{default:o(()=>m[0]||(m[0]=[r("h2",null,"CORN术中获得性压力性损伤风险评估单",-1)])),_:1,__:[0]}))}),[["__scopeId","data-v-c97a2c21"]]);export{n as default};
+//# sourceMappingURL=CornRiskAssessment.47c34c21.js.map
